@@ -36,7 +36,6 @@ p > strong {
 
 main {
   background-color: hsl(0deg, 0%, 60%);
-  height: max-content;
   padding: 64px 0px;
 }
 
@@ -57,5 +56,9 @@ main {
 @media (max-width: 961px) {
   .max-width-wrapper {
     max-width: 100%;
+  }
+
+  .indented-heading {
+    margin: 0px 0px 24px -16px;
   }
 }
